@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Redes MAPA</title>
+	</head>
+	<body background="Image/f1.jpg" text="black">
+		<center><h1>Tipos de redes</h1></center>
+
+		<h2>Indice</h2>
+
+		<ul>
+			<li><a href="#Def">Definición de Redes</a></li>
+			<li><a href="#Tipos">Tipos de redes</a></li>
+			<li><a href="#Topo">Topologias de redes</a></li>
+			<li><a href="#Medios">Medios de transmisión</a></li>
+		</ul>
+		<center><h2><a name="Def">Definición de redes</a></h2></center>
+		<table width="80%" align="center" border="1">
+			<tr>
+				<td height="160"><img src="Image/red2.png" width="200" height="100%">
+				</td>
+				<td><p align="justify"><h3>¿Qué es una red de ordenadores?<br></h3>
+						Una red de ordenadores se refiere a dispositivos de computación interconectados que pueden intercambiar datos y compartir recursos entre sí. Los dispositivos de la red utilizan un sistema de reglas, llamados protocolos de comunicaciones, para transmitir información a través de tecnologías físicas o inalámbricas.</p></td>
+		</table>
+		<center><h2>Tipos de redes<a name="Tipos"></a></h2></center>
+		<center><a href="https://redcomputadora.wordpress.com/2016/06/30/tipos-de-redes-segun-el-tamano/" target="new"><img src="Image/f2.jpg" width="200" height="100%"></a></center>
+		<table width="80%" align="center" border="1">
+			<tr>
+				<td><p align="justify"><h3>Red de área personal (PAN)<br></h3>
+				Una red de área personal (Personal Area Network, PAN) es una red de nodos de utilidad para una única persona. La distancia máxima entre los nodos suele ser de 1 metro.</p></td>
+					<td height="160"><img src="Image/redpan.png" width="200" height="100%"></td>
+			</tr>
+			<tr>
+				<td><p align="justify"><h3>Red de área local (LAN)<br></h3>
+				Es un conjunto de equipos que pertenecen a la misma organización y están conectados dentro de un área geográfica pequeña (menor de 1 Km) mediante una red, generalmente con la misma tecnología (la más utilizada es Ethernet). Puede estar enlazada por cable (telefónico, coaxial o fibra óptica). Puede consistir de tan sólo dos o tres computadoras conectadas con la finalidad de compartir recursos, o puede incluir varios cientos de computadoras de diferentes tipos. La velocidad de transferencia de datos en una red de área local puede alcanzar hasta 10 Mbps (por ejemplo, en una red Ethernet) y 1 Gbps (por ejemplo, en FDDI o Gigabit Ethernet). Como también puede contener 100, o incluso 1000, usuarios.</p></td>
+				<td height="160"><img src="Image/redlan.jpg" width="200" height="100%"></td>
+			</tr>
+			<tr>
+				<td><p align="justify"><h3>Red de área amplia (WAN)<br></h3>
+					Una red de área amplia (Wide Area Network, WAN) se usa para vincular redes LAN. Las redes que deben conectarse están muy separadas en este caso. La distancia entre los nodos puede ser de 100 a 1000 kilómetros.</p></td>
+				<td height="160"><img src="Image/redwan.jpg" width="200" height="100%"></td>
+			</tr>
+			<tr>
+				<td><p align="justify"><h3>Red de área metropolitana (MAN)<br></h3>
+				Una red de área metropolitana (Metropolitan Area Network, MAN) funciona como una red WAN, pero para una zona geográfica determinada.</p></td>
+				<td height="160"><img src="Image/redman.png" width="200" height="100%"></td>
+			</tr>
+			<tr>
+				<td><p align="justify"><h3>Red de área global (GAN)<br></h3>
+				La red de área global (Global Area Network, GAN) se usa para vincular redes WAN. Como el propio nombre indica, la distancia que abarca este tipo de red es global.</p></td>
+				<td height="160"><img src="Image/redgan.jpg" width="200" height="100%"></td>
+			</tr>
+			<tr>
+				<td><p align="justify"><h3>Red privada virtual (VPN)<br></h3>
+				La red privada virtual (Virtual Private Network, VPN) permite hacer una extensión segura de una red física ( LAN, WAN, MAN o GAN) a través de una red pública o compartida. La forma más común de establecer esta extensión es usando el internet.</p></td>
+				<td height="160"><img src="Image/redvpn.jpg" width="200" height="100%"></td>
+			</tr>
+		</table>
+
+		<center><h2><a name="Topo">Topologias de redes</h2></a></center>
+
+		<table width="80%" align="center" border="1">
+			<tr>
+				<td><p align="justify"><h3>Topología en Bus<br></h3>En esta topología, todos los dispositivos están conectados a un único cable o "bus", creando una única línea de comunicación. Es sencilla de implementar y económica, pero si el bus se daña, toda la red se ve afectada, y el rendimiento disminuye con más dispositivos.</p></td>
+				<td height="160"><img src="Image/tbus.png" width="200" height="100%"></td>
+			</tr>
+			<tr>
+				<td><p align="justify"><h3>Topología en Estrella<br></h3>En la topología en estrella, todos los dispositivos se conectan a un dispositivo central, como un switch o hub. Es fácil de gestionar y si un dispositivo falla, no afecta a los demás, pero si el dispositivo central falla, toda la red se interrumpe.</p></td>
+				<td height="160"><img src="Image/testrella.png" width="200" height="100%"></td>
+			</tr>
+			<tr>
+				<td><p align="justify"><h3>Topología en Anillo<br></h3>Los dispositivos están conectados en un ciclo cerrado, donde cada uno está conectado a dos dispositivos vecinos. Aunque es eficiente en redes pequeñas y medianas, cualquier fallo en un dispositivo o cable puede interrumpir toda la comunicación.</p></td>
+				<td height="160"><img src="Image/tanillo.png" width="200" height="100%"></td>
+			</tr>
+			<tr>
+				<td><p align="justify"><h3>Topología en Malla<br></h3>Cada dispositivo está conectado a todos los demás dispositivos de la red, proporcionando múltiples rutas de comunicación. Ofrece alta fiabilidad y redundancia, pero su implementación es costosa y compleja debido al gran número de conexiones.</p></td>
+				<td height="160"><img src="Image/tmalla.png" width="200" height="100%"></td>
+			</tr>
+			<tr>
+				<td><p align="justify"><h3>Topología en Árbol (o Jerárquica)<br></h3>Combinación de las topologías en estrella y bus, donde los dispositivos están organizados en niveles jerárquicos. Es escalable y fácil de gestionar, pero si el nodo principal falla, puede afectar a toda la red.</p></td>
+				<td height="160"><img src="Image/tarbol.png" width="200" height="100%"></td>
+			</tr>
+			<tr>
+				<td><p align="justify"><h3>Topología Híbrida<br></h3>Mezcla de dos o más topologías, aprovechando las ventajas de cada una. Es flexible y se adapta a diferentes necesidades, pero su implementación puede ser costosa y compleja debido a la combinación de diversas topologías.</p></td>
+				<td height="160"><img src="Image/thibrida.png" width="200" height="100%"></td>
+			</tr>
+			<tr>
+				<td><p align="justify"><h3>Topología en Línea (o Punto a Punto)<br></h3>En esta topología, dos dispositivos están conectados directamente sin intermediarios. Es simple, rápida y segura, pero no es escalable, ya que solo permite la conexión entre dos dispositivos.</p></td>
+				<td height="160"><img src="Image/tpp.png" width="200" height="100%"></td>
+			</tr>
+		</table>
+		<center><h2><a name="Medios">Medios de transmisión</h2></a></center>
+		<center><h3>Alambricos</h3></center>
+		<table width="80%" align="center" border="1">
+			<tr>
+				<td><p align="justify"><h3>Cable de Par Trenzado (UTP/STP)<br></h3>El cable de par trenzado es uno de los medios más comunes para la transmisión de datos. Los cables están compuestos por pares de hilos de cobre trenzados entre sí, lo que ayuda a reducir la interferencia electromagnética. Existen versiones apantalladas (STP) y no apantalladas (UTP), dependiendo de la necesidad de protección contra interferencias.<a href="cabletrenzado.html">Más información</a></p></p></td>
+				<td height="160"><img src="Image/tpar.jpg" width="200" height="100%"></td>
+			</tr>
+			<tr>
+				<td><p align="justify"><h3>Cable Coaxial<br></h3>El cable coaxial tiene un núcleo de cobre que transmite señales, rodeado por un aislante, una capa metálica de apantallamiento y una cubierta externa. Es más resistente a las interferencias y a la pérdida de señal que el cable de par trenzado, pero generalmente se utiliza menos hoy en día debido a los avances en otras tecnologías. <a href="cablecoaxial.html">Más información</a></p></td>
+				<td height="160"><img src="Image/tcoax.jpg" width="200" height="100%"></td>
+			</tr>
+			<tr>
+				<td><p align="justify"><h3>Fibra Óptica<br></h3>La fibra óptica utiliza hilos de vidrio o plástico para transmitir datos mediante señales de luz. Ofrece una velocidad de transmisión extremadamente alta y una gran capacidad de distancia sin pérdidas significativas. Es inmune a interferencias electromagnéticas, lo que la convierte en la opción ideal para comunicaciones de largo alcance. <a href="fibraoptica.html">Más información</a></p></td>
+				<td height="160"><img src="Image/tfibra.jpg" width="200" height="100%"></td>
+			</tr>
+		</table>
+
+			<center><h3>Inalambricos</h3></center>
+		<table width="80%" align="center" border="1">
+			<tr>
+				<td><p align="justify"><h3>Radiofrecuencia (RF)<br></h3>La transmisión por radiofrecuencia utiliza ondas electromagnéticas para enviar información a través del aire. Es común en redes Wi-Fi, radios, y comunicaciones móviles. La señal puede viajar distancias cortas o largas, dependiendo de la frecuencia y la potencia de transmisión. <a href="radiofrecuencia.html">Más información</a></p></td>
+				<td height="160"><img src="Image/tradio.png" width="200" height="100%"></td>
+			</tr>
+			<tr>
+				<td><p align="justify"><h3>Infrarrojo (IR)<br></h3>El infrarrojo es una tecnología de transmisión que utiliza luz infrarroja para comunicar dispositivos a distancias cortas. Es común en controles remotos y conexiones entre dispositivos como impresoras y computadoras. Aunque ofrece un buen rendimiento, su alcance es limitado y requiere línea de visión directa.</p></td>
+				<td height="160"><img src="Image/tinfra.jpg" width="200" height="100%"></td>
+			</tr>
+			<tr>
+				<td><p align="justify"><h3>Microondas<br></h3>Las microondas son ondas de radio de alta frecuencia que se utilizan para la transmisión de datos a través de distancias más largas, generalmente en enlaces punto a punto. Se utilizan en sistemas de comunicaciones satelitales, enlaces de datos de larga distancia y comunicaciones móviles. Las microondas requieren una línea de visión clara entre los dispositivos de transmisión y recepción.</p></td>
+				<td height="160"><img src="Image/tmicro.png" width="200" height="100%"></td>
+			</tr>
+			<tr>
+				<td><p align="justify"><h3>Bluetooth<br></h3>Bluetooth es una tecnología inalámbrica de corto alcance que permite la transmisión de datos entre dispositivos cercanos, como teléfonos móviles, auriculares y computadoras. Es ideal para redes personales (PAN) y es eficiente para aplicaciones que requieren baja potencia y alta movilidad.</p></td>
+				<td height="160"><img src="Image/tblue.png" width="200" height="100%"></td>
+			</tr>
+			<tr>
+				<td><p align="justify"><h3>Wi-Fi<br></h3>Wi-Fi es una tecnología de red inalámbrica que utiliza ondas de radio en bandas de frecuencia específicas para proporcionar acceso a Internet y redes locales. Es ampliamente utilizada en hogares, oficinas y espacios públicos, ofreciendo conexiones de alta velocidad a través de distancias medias.</p></td>
+				<td height="160"><img src="Image/redvpn.jpg" width="200" height="100%"></td>
+			</tr>
+			<tr>
+				<td><p align="justify"><h3>LTE (Long-Term Evolution) / 5G<br></h3>LTE y 5G son tecnologías de comunicación celular avanzadas que proporcionan velocidades de transmisión de datos muy altas para dispositivos móviles. 5G, la más nueva, promete aún mayor capacidad y menores latencias, permitiendo una conectividad más rápida y estable a nivel global</p></td>
+				<td height="160"><img src="Image/twifi.png" width="200" height="100%"></td>
+			</tr>
+		</table>
+
+		<center><h2></h2></center>
+
+		<table border="1" align="center">
+			<tr>
+				<th>Nombre</th>
+				<th>Sexo</th>
+			</tr>
+			<tr>
+				<td>Mario</td>
+				<td>Femenino</td>
+			</tr>
+			<tr>
+				<td>Ricarda</td>
+				<td>Femina</td>
+			</tr>
+			<tr>
+				<td>Toñito</td>
+				<td>Masculino</td>
+			</tr>
+			<tr>
+				<td>Angel</td>
+				<td>Masculino</td>
+			</tr>
+			<tr>
+				<td>Papiro</td>
+				<td>Masculino</td>
+			</tr>
+		</table>
+
+
+
+	<h4 align="right">Elaborado por <a href="https://sites.google.com/view/capacitacion-tics-mpa-3j/inicio" target="new">Ramiro José López Porras</a></h4>
+
+	</body>
+</html>

@@ -1,0 +1,10 @@
+ETIQUETAS
+<ul></ul>
+
+Fondo
+
+Fondo con una imagen
+<body background="Image/f1.jpg">
+
+Fondo con un color
+<body bgcolor="black">
